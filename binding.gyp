@@ -7,10 +7,10 @@
         "<!(node -e \"require('nan')\")"
       ],
       "cflags": [
-        "<!@(pkg-config opencv --cflags)"
+        "<!@(pkg-config opencv4 --cflags)"
       ],
       "libraries": [
-        "<!@(pkg-config opencv --libs)"
+        "<!@(pkg-config opencv4 --libs)"
       ]
     }
   ]
